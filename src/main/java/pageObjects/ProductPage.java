@@ -34,12 +34,10 @@ public class ProductPage extends BasePage {
 
 	public void clickAddToCartForPG3() throws Throwable {
 		click(btnAddToCartForPG3, "ADD TO CART For PG3");
-
 	}
 	
 	public void clickAddToCartForNikeSFBJungle() throws Throwable {
 		click(btnAddToCartForNikeSFBJungle, "ADD TO CART For Nike SFB Jungle");
-		
 	}
 	
 	

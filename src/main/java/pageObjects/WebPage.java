@@ -16,7 +16,6 @@ public class WebPage extends BasePage {
 	@FindBy(xpath = "//android.widget.EditText")
 	public AndroidElement editfield;
 	
-	
 	public void sendKeysOnSearchBox() throws Throwable {
 		sendKeys(editfield, "General Store");
 	}

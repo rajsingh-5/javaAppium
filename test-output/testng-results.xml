@@ -11,27 +11,27 @@
       <![CDATA[Actual: 226.97]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70622" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:15:49 IST">
+  <suite name="Default suite" duration-ms="68318" started-at="2024-05-07T18:29:00 IST" finished-at="2024-05-07T18:30:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70622" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:15:49 IST">
+    <test name="Default test" duration-ms="68318" started-at="2024-05-07T18:29:00 IST" finished-at="2024-05-07T18:30:08 IST">
       <class name="testCases.Journey">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.Journey@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:14:38 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.Journey@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2024-05-07T18:29:00 IST" finished-at="2024-05-07T18:29:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="configBc(org.testng.ITestContext)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBc" is-config="true" duration-ms="277" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:14:39 IST">
+        <test-method status="PASS" signature="configBc(org.testng.ITestContext)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBc" is-config="true" duration-ms="306" started-at="2024-05-07T18:29:00 IST" finished-at="2024-05-07T18:29:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5f303ecd]]>
+                <![CDATA[org.testng.TestRunner@50d3bf39]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBc -->
-        <test-method status="PASS" signature="configBm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBm" is-config="true" duration-ms="8016" started-at="2024-05-07T18:14:39 IST" finished-at="2024-05-07T18:14:47 IST">
+        <test-method status="PASS" signature="configBm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBm" is-config="true" duration-ms="7885" started-at="2024-05-07T18:29:00 IST" finished-at="2024-05-07T18:29:08 IST">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBm -->
-        <test-method status="PASS" signature="generalStoreApp()[pri:0, instance:testCases.Journey@5bfbf16f]" name="generalStoreApp" duration-ms="61044" started-at="2024-05-07T18:14:47 IST" finished-at="2024-05-07T18:15:48 IST">
+        <test-method status="PASS" signature="generalStoreApp()[pri:0, instance:testCases.Journey@5bfbf16f]" name="generalStoreApp" duration-ms="58951" started-at="2024-05-07T18:29:08 IST" finished-at="2024-05-07T18:30:07 IST">
           <reporter-output>
             <line>
               <![CDATA[Checking:Amount Matched]]>
@@ -55,7 +55,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- generalStoreApp -->
-        <test-method status="PASS" signature="configAm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configAm" is-config="true" duration-ms="1267" started-at="2024-05-07T18:15:48 IST" finished-at="2024-05-07T18:15:49 IST">
+        <test-method status="PASS" signature="configAm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configAm" is-config="true" duration-ms="1157" started-at="2024-05-07T18:30:07 IST" finished-at="2024-05-07T18:30:08 IST">
           <params>
             <param index="0">
               <value>

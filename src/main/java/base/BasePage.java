@@ -12,12 +12,10 @@ import org.testng.Reporter;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import utils.ReporterClass;
-import utils.Utilitycommon;
 import utils.WebDriverUtility;
 
 public class BasePage {
 	public WebDriverUtility wLib = new WebDriverUtility(BaseTest.driver);
-	public Utilitycommon util = new Utilitycommon();
 
 	public void click(AndroidElement element, String elementName) throws Throwable {
 		try {
@@ -54,25 +52,12 @@ public class BasePage {
 		}
 	}
 
-	public void sendKeys(AndroidElement element, String txt, String fieldName) {
-		wLib.waitForElemnetToBeVisible(element);
-		try {
-			element.sendKeys(txt);
-			BaseTest.test
-					.info("Input data \"" + txt + "\" entered into \"" + fieldName + "\" text field successfully.");
-			LogManager.getLogger().info(txt + " is sent to " + fieldName + " text field ");
-		} catch (Exception e) {
-			BaseTest.test.info("send Keys " + txt + " in " + fieldName + " is failed");
-			LogManager.getLogger().info("send Keys " + txt + " in " + fieldName + " is failed");
-			Assert.fail();
-		}
-	}
-
 	public boolean isDisplayed(AndroidElement element) {
 		try {
 			new WebDriverWait(BaseTest.driver, 10).until(ExpectedConditions.visibilityOf(element));
 			String name = element.getAttribute("text");
-			ReporterClass.ReportLoggerScreenshot(ReporterClass.pass, "text \"" + name + "\" is displayed successfully.");
+			ReporterClass.ReportLoggerScreenshot(ReporterClass.pass,
+					"text \"" + name + "\" is displayed successfully.");
 			LogManager.getLogger().info(name + " is displayed successfully.");
 			return element.isDisplayed();
 		} catch (NoSuchElementException | TimeoutException exception) {

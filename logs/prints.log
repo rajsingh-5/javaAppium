@@ -265,3 +265,24 @@
 2024-May-07 18:15:48.305 [main] INFO  base.BaseTest - ---------------------------Execution of the Method is Finished--------------------------------------
  
 
+2024-May-07 18:29:00.798 [main] INFO  base.BaseTest - Runnig Before Class
+2024-May-07 18:29:00.935 [main] INFO  base.BaseTest - starting: generalStoreApp
+2024-May-07 18:29:13.120 [main] INFO  base.BasePage - Drop Down is clicked
+2024-May-07 18:29:36.526 [main] INFO  base.BasePage - India is clicked
+2024-May-07 18:29:38.116 [main] INFO  base.BasePage - text Roy is entered in text box
+2024-May-07 18:29:39.582 [main] INFO  base.BasePage - Lets Begin is clicked
+2024-May-07 18:29:49.520 [main] INFO  base.BasePage - ADD TO CART For PG3 is clicked
+2024-May-07 18:29:52.014 [main] INFO  base.BasePage - ADD TO CART For Nike SFB Jungle is clicked
+2024-May-07 18:29:52.938 [main] INFO  base.BasePage - $110.0 is fetched successfully.
+2024-May-07 18:29:53.998 [main] INFO  base.BasePage - $116.97 is fetched successfully.
+2024-May-07 18:29:55.329 [main] INFO  base.BasePage - Cart Icon is clicked
+2024-May-07 18:29:56.266 [main] INFO  base.BasePage - $110.0 is fetched successfully.
+2024-May-07 18:29:57.192 [main] INFO  base.BasePage - $116.97 is fetched successfully.
+2024-May-07 18:29:57.662 [main] INFO  base.BasePage -  - Amount Matched  |   Actual: 226.97 and  Expected: 226.97
+2024-May-07 18:29:59.067 [main] INFO  base.BasePage - Check Box is clicked
+2024-May-07 18:30:00.965 [main] INFO  base.BasePage - Visit to the website to complete purchase is clicked
+2024-May-07 18:30:05.223 [main] INFO  base.BasePage - text General Store is entered in text box
+2024-May-07 18:30:07.458 [main] INFO  base.BasePage - Enter name here is displayed successfully.
+2024-May-07 18:30:07.643 [main] INFO  base.BaseTest - ---------------------------Execution of the Method is Finished--------------------------------------
+ 
+
