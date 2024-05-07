@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Checking:Amount Matched]]>
+    </line>
+    <line>
+      <![CDATA[Expected: 226.97]]>
+    </line>
+    <line>
+      <![CDATA[Actual: 226.97]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70622" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:15:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70622" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:15:49 IST">
+      <class name="testCases.Journey">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.Journey@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:14:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="configBc(org.testng.ITestContext)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBc" is-config="true" duration-ms="277" started-at="2024-05-07T18:14:38 IST" finished-at="2024-05-07T18:14:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5f303ecd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method status="PASS" signature="configBm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configBm" is-config="true" duration-ms="8016" started-at="2024-05-07T18:14:39 IST" finished-at="2024-05-07T18:14:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Journey.generalStoreApp()[pri:0, instance:testCases.Journey@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBm -->
+        <test-method status="PASS" signature="generalStoreApp()[pri:0, instance:testCases.Journey@5bfbf16f]" name="generalStoreApp" duration-ms="61044" started-at="2024-05-07T18:14:47 IST" finished-at="2024-05-07T18:15:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Checking:Amount Matched]]>
+            </line>
+            <line>
+              <![CDATA[Expected: 226.97]]>
+            </line>
+            <line>
+              <![CDATA[Actual: 226.97]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- generalStoreApp -->
+        <test-method status="PASS" signature="configAm(org.testng.ITestResult)[pri:0, instance:testCases.Journey@5bfbf16f]" name="configAm" is-config="true" duration-ms="1267" started-at="2024-05-07T18:15:48 IST" finished-at="2024-05-07T18:15:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generalStoreApp status=SUCCESS method=Journey.generalStoreApp()[pri:0, instance:testCases.Journey@5bfbf16f] output=Checking:Amount Matched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAm -->
+      </class> <!-- testCases.Journey -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
